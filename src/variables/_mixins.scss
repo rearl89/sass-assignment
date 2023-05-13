@@ -17,3 +17,8 @@
     font-family: $titleFont;
     margin: 10px;
 }
+
+@mixin header($color) {
+    @warn "blah blah blah";
+    background-color: $color;
+}

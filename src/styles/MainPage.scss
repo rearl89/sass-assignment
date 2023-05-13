@@ -5,15 +5,19 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
+    @include header($blackRussian);
     h1 {
         color: $redColor;
     }
-
     .mainBtn {
         @include buttonStyle($redColor, 35px);
         &:hover {
             background-color: $greenColor;
         }
     }
+    a {
+        text-decoration: none;
+        padding: 25px;
+        }
+    
 }

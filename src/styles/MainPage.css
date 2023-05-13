@@ -2,6 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #0A001C;
 }
 .mainPage h1 {
   color: #FF0000;
@@ -17,4 +18,8 @@
 }
 .mainPage .mainBtn:hover {
   background-color: #00FF00;
+}
+.mainPage a {
+  text-decoration: none;
+  padding: 25px;
 }/*# sourceMappingURL=MainPage.css.map */
