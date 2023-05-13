@@ -5,7 +5,7 @@ export default function MainPage() {
     return (
         <div className="mainPage">
             <h1>Welcome to the site</h1>
-            <button>Click Here</button>
+            <button className="mainBtn">Click Here</button>
         </div>
     )
 }

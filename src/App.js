@@ -6,7 +6,6 @@ function App() {
     <div className="App">
      <Navbar />
      <MainPage />
-     <button>Click Here</button>
     </div>
   );
 }

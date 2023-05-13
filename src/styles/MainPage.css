@@ -6,7 +6,7 @@
 .mainPage h1 {
   color: #FF0000;
 }
-.mainPage button {
+.mainPage .mainBtn {
   width: 200px;
   height: 40px;
   background-color: #FF0000;
@@ -14,4 +14,7 @@
   border-radius: 8px;
   color: #FFF;
   font-size: 35px;
+}
+.mainPage .mainBtn:hover {
+  background-color: #00FF00;
 }/*# sourceMappingURL=MainPage.css.map */
