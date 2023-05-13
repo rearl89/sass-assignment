@@ -1,4 +1,5 @@
 @import "../variables/_Variables.scss";
+@import "../variables/mixins";
 
 .navbar {
     width: 100%;
@@ -9,15 +10,35 @@
     align-items: center;
 
     a {
-        color: $whiteColor;
-        font-size: 25px;
-        text-decoration: none;
-        font-family: $titleFont;
-        margin: 10px;
+        @include aLink($whiteColor, 25px);
     }
 
     .links {
-        margin-right: 50px;;
+        margin-right: 50px;
+        .homeLink {
+            &:hover {
+                font-size: 50px;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            }
+        }
+        .aboutLink {
+            &:hover {
+                font-size: 30px;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            }
+        }
+        .profileLink {
+            &:hover {
+                font-size: 30px;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            }
+        }
+        .contactLink {
+            &:hover {
+                font-size: 30px;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            }
+        }
     }
 }
 
